@@ -1,0 +1,32 @@
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\bin\Debug\net5.0\aula02.exe
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\bin\Debug\net5.0\aula02.deps.json
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\bin\Debug\net5.0\aula02.runtimeconfig.json
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\bin\Debug\net5.0\aula02.runtimeconfig.dev.json
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\bin\Debug\net5.0\aula02.dll
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\bin\Debug\net5.0\aula02.pdb
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\obj\Debug\net5.0\aula02.csproj.AssemblyReference.cache
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\obj\Debug\net5.0\aula02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\obj\Debug\net5.0\aula02.AssemblyInfoInputs.cache
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\obj\Debug\net5.0\aula02.AssemblyInfo.cs
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\obj\Debug\net5.0\aula02.csproj.CoreCompileInputs.cache
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\obj\Debug\net5.0\aula02.dll
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\obj\Debug\net5.0\refint\aula02.dll
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\obj\Debug\net5.0\aula02.pdb
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\obj\Debug\net5.0\aula02.genruntimeconfig.cache
+C:\Users\AndrePc\Documents\curso de c#\aulas\aula02\obj\Debug\net5.0\ref\aula02.dll
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\bin\Debug\net5.0\aula02.exe
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\bin\Debug\net5.0\aula02.deps.json
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\bin\Debug\net5.0\aula02.runtimeconfig.json
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\bin\Debug\net5.0\aula02.runtimeconfig.dev.json
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\bin\Debug\net5.0\aula02.dll
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\bin\Debug\net5.0\aula02.pdb
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\obj\Debug\net5.0\aula02.csproj.AssemblyReference.cache
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\obj\Debug\net5.0\aula02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\obj\Debug\net5.0\aula02.AssemblyInfoInputs.cache
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\obj\Debug\net5.0\aula02.AssemblyInfo.cs
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\obj\Debug\net5.0\aula02.csproj.CoreCompileInputs.cache
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\obj\Debug\net5.0\aula02.dll
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\obj\Debug\net5.0\refint\aula02.dll
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\obj\Debug\net5.0\aula02.pdb
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\obj\Debug\net5.0\aula02.genruntimeconfig.cache
+C:\Users\AndrePc\Documents\cursoDeC#\aulas\aula02\obj\Debug\net5.0\ref\aula02.dll
