@@ -10,7 +10,7 @@ class uri015
         int valor,notas;
         int[] cedulas = new int[7]{100,50,20,10,5,2,1};
 
-        valor = int .Parse(Console.ReadLine()); 
+        valor = int.Parse(Console.ReadLine()); 
         
         for(int i = 0; i <= 6;i++){
         notas = valor/cedulas[i];
