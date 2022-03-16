@@ -1,23 +1,21 @@
-using System;
-/*Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas,
-o valor que recebe por hora e calcula o salário desse funcionário. 
-A seguir, mostre o número e o salário do funcionário, com duas casas decimais.*/
-class uri006{
+using System; 
+/*Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo 
+produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).*/
+class uri1007 {
 
-    static void Main(){
-        int num,qtddHora;
-        double valHora,sal;
+    private static void Main(string[] args) { 
         
-        Console.Write("Digite o numero do funcionario: ");
-        num = int.Parse(Console.ReadLine());
-        Console.Write("Digite a quantidade de horas trabalhadas: ");
-        qtddHora = int.Parse(Console.ReadLine());
-        Console.Write("Digite o valor da hora trabalhada: ");
-        valHora = double.Parse(Console.ReadLine());
-        sal = qtddHora * valHora;
+        int A,B,C,D,DIF;
 
-        Console.WriteLine("NUMBER = {0}",num);
-        Console.WriteLine("SALARY = U$ {0}",sal.ToString("F2"));
+        A = int.Parse(Console.ReadLine());
+        B = int.Parse(Console.ReadLine());
+        C = int.Parse(Console.ReadLine());
+        D = int.Parse(Console.ReadLine());
+
+        DIF = (A * B)-(C * D);
+
+        Console.WriteLine("DIFERENCA = {0}",DIF);
+        
     }
 
 }

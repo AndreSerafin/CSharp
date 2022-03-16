@@ -1,29 +1,14 @@
 using System;
-/*Faça um programa que leia três valores e apresente
- o maior dos três valores lidos seguido da mensagem “eh o maior”.*/
-class uri010{
-
+class uri1011{
     private static void Main(){
 
-        int a,b,c,maior;
-        string[] dados;
+        double vol,raio,pi = 3.14159;
 
-        dados = Console.ReadLine().Split(' ');
+        raio = double.Parse(Console.ReadLine());
 
-        a = int.Parse(dados[0]);
-        b = int.Parse(dados[1]);
-        c = int.Parse(dados[2]);
+        vol = (4/3.0) * pi * Math.Pow(raio,3);
 
-        maior = a;
-        
-        if(b > a && b > c){
-            maior = b;
-        }else if(c > b && c > a){
-            maior = c;
-        }
-
-        Console.WriteLine("{0} eh o maior",maior);
+        Console.WriteLine("VOLUME = {0}", vol.ToString("F3"));
 
     }
-
 }

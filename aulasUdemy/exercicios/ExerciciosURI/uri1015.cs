@@ -1,23 +1,24 @@
 using System;
-/*Joaozinho quer calcular e mostrar a quantidade de litros de combustível gastos em uma viagem, 
-ao utilizar um automóvel que faz 12 KM/L. Para isso, ele gostaria que você o auxiliasse através de um simples 
-programa. Para efetuar o cálculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade 
-média durante a mesma (em km/h). Assim, pode-se obter distância percorrida e, em seguida, 
-calcular quantos litros seriam necessários. Mostre o valor com 3 casas decimais após o ponto.*/
-class uri014
-{
+/*Leia os quatro valores correspondentes aos eixos x e y de dois pontos quaisquer no plano, p1(x1,y1) e p2(x2,y2) e 
+calcule a distância entre eles, mostrando 4 casas decimais após a vírgula, segundo a fórmula:*/
+class uri1015{
 
-    private static void Main()
-    {
-        int hora,velocMedia;
-        double dist,litros;
+    private static void Main(){
 
-        hora = int.Parse(Console.ReadLine());
-        velocMedia = int.Parse(Console.ReadLine());
+        double x1,x2,y1,y2,dist;
+        string[] dados1, dados2;
 
-        dist = velocMedia*hora;
-        litros = dist/12;
+        dados1 = Console.ReadLine().Split(' ');
+        dados2 = Console.ReadLine().Split(' ');
+        
+        x1 = double.Parse(dados1[0]);
+        x2 = double.Parse(dados1[1]);
+        y1 = double.Parse(dados2[0]);
+        y2 = double.Parse(dados2[1]);
 
-        Console.WriteLine("{0}",litros.ToString("F3"));
+        dist = Math.Sqrt(Math.Pow((x2 - x1), 2.0) + Math.Pow((y2 - y1), 2.0));
+
+        Console.WriteLine("{0}",dist.ToString("F4"));
     }
+
 }

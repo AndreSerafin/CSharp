@@ -1,10 +1,9 @@
 using System; 
-
 /*Leia dois valores inteiros, no caso para variáveis A e B. A seguir, 
 calcule o produto entre elas e atribua à variável PROD. A seguir escrever o valor desta variável.*/
-class uri003 {
+class uri1004 {
 
-    static void Main(string[] args) { 
+    private static void Main(string[] args) { 
         
         int A,B,PROD;
         A = int.Parse(Console.ReadLine());

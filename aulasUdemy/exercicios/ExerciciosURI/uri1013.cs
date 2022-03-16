@@ -1,24 +1,29 @@
 using System;
-/*Leia os quatro valores correspondentes aos eixos x e y de dois pontos quaisquer no plano, p1(x1,y1) e p2(x2,y2) e 
-calcule a distância entre eles, mostrando 4 casas decimais após a vírgula, segundo a fórmula:*/
-class uri012{
+/*Faça um programa que leia três valores e apresente
+ o maior dos três valores lidos seguido da mensagem “eh o maior”.*/
+class uri1013{
 
     private static void Main(){
 
-        double x1,x2,y1,y2,dist;
-        string[] dados1, dados2;
+        int a,b,c,maior;
+        string[] dados;
 
-        dados1 = Console.ReadLine().Split(' ');
-        dados2 = Console.ReadLine().Split(' ');
+        dados = Console.ReadLine().Split(' ');
+
+        a = int.Parse(dados[0]);
+        b = int.Parse(dados[1]);
+        c = int.Parse(dados[2]);
+
+        maior = a;
         
-        x1 = double.Parse(dados1[0]);
-        x2 = double.Parse(dados1[1]);
-        y1 = double.Parse(dados2[0]);
-        y2 = double.Parse(dados2[1]);
+        if(b > a && b > c){
+            maior = b;
+        }else if(c > b && c > a){
+            maior = c;
+        }
 
-        dist = Math.Sqrt(Math.Pow((x2 - x1), 2.0) + Math.Pow((y2 - y1), 2.0));
+        Console.WriteLine("{0} eh o maior",maior);
 
-        Console.WriteLine("{0}",dist.ToString("F4"));
     }
 
 }

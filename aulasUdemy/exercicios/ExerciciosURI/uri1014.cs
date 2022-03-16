@@ -1,24 +1,19 @@
 using System;
-/*Dois carros (X e Y) partem em uma mesma direção. O carro X sai com velocidade 
-constante de 60 Km/h e o carro Y sai com velocidade constante de 90 Km/h.
-Em uma hora (60 minutos) o carro Y consegue se distanciar 30 quilômetros do
-carro X, ou seja, consegue se afastar um quilômetro a cada 2 minutos.
-Leia a distância (em Km) e calcule quanto tempo leva (em minutos) para o
-carro Y tomar essa distância do outro carro.*/
-class uri013
-{
+/*Calcule o consumo médio de um automóvel sendo fornecidos a distância total 
+percorrida (em Km) e o total de combustível gasto (em litros)..*/
+class uri1014{
 
-    private static void Main()
-    {
+    private static void Main(){
 
-        int km,tempo;
+        int x;
+        double y,consMed;
         
-        km = int.Parse(Console.ReadLine());
+        x = int.Parse(Console.ReadLine());
+        y = double.Parse(Console.ReadLine());
+        consMed = x/y;
 
-        tempo = km*2;
-
-        Console.WriteLine("{0} minutos",tempo);
-                
+        Console.WriteLine("{0} km/l",consMed.ToString("F3"));
 
     }
+
 }

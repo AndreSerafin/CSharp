@@ -1,23 +1,23 @@
 using System;
-/*Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas
-por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas,
-informar o total a receber no final do mês, com duas casas decimais.*/
-class uri007{
+/*Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas,
+o valor que recebe por hora e calcula o salário desse funcionário. 
+A seguir, mostre o número e o salário do funcionário, com duas casas decimais.*/
+class uri1008{
 
-    static void Main(){
-        string nome;
-        double salFixo,totalVendido,sal;
+    private static void Main(){
+        int num,qtddHora;
+        double valHora,sal;
         
-        Console.Write("Digite o nome do funcionario: ");
-        nome = Console.ReadLine();
-        Console.Write("Digite o valor do salario fixo: ");
-        salFixo = double.Parse(Console.ReadLine());
-        Console.Write("Digite o total vendido: ");
-        totalVendido = double.Parse(Console.ReadLine());
-        
-        sal = salFixo + (totalVendido * 15/100);
+        Console.Write("Digite o numero do funcionario: ");
+        num = int.Parse(Console.ReadLine());
+        Console.Write("Digite a quantidade de horas trabalhadas: ");
+        qtddHora = int.Parse(Console.ReadLine());
+        Console.Write("Digite o valor da hora trabalhada: ");
+        valHora = double.Parse(Console.ReadLine());
+        sal = qtddHora * valHora;
 
-        Console.WriteLine("TOTAL = R$ {0}",sal.ToString("F2"));
+        Console.WriteLine("NUMBER = {0}",num);
+        Console.WriteLine("SALARY = U$ {0}",sal.ToString("F2"));
     }
 
 }

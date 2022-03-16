@@ -1,35 +1,29 @@
 using System;
-/*Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. 
-Em seguida, calcule e mostre:
-a) a área do triângulo retângulo que tem A por base e C por altura.
-b) a área do círculo de raio C. (pi = 3.14159)
-c) a área do trapézio que tem A e B por bases e C por altura.
-d) a área do quadrado que tem lado B.
-e) a área do retângulo que tem lados A e B.*/
-class uri009{
+/*Neste problema, deve-se ler o código de uma peça 1, 
+o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, 
+o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.*/
+class uri1010{
 
     private static void Main(){
 
-        double a,b,c,areaTri,areaCirc,areaTrap,areaQuad,AreaRet,pi = 3.14159;
-        string[] dados;
+        int cod1,cod2,np1,np2;
+        double valP1,valP2,total;
+        string[] dados1,dados2;
+        
+        dados1 = Console.ReadLine().Split(' ');
+        dados2 =Console.ReadLine().Split(' ');
 
-        dados = Console.ReadLine().Split(' ');
+        cod1 = int.Parse(dados1[0]);
+        np1 = int.Parse(dados1[1]);
+        valP1 = double.Parse(dados1[2]);
+        
+        cod2 = int.Parse(dados2[0]);
+        np2 = int.Parse(dados2[1]);
+        valP2 = double.Parse(dados2[2]);
 
-        a = double.Parse(dados[0]);
-        b = double.Parse(dados[1]);
-        c = double.Parse(dados[2]);
-
-        areaTri = (a * c) / 2;
-        areaCirc = pi * Math.Pow(c,2);
-        areaTrap = (a + b) * c / 2;
-        areaQuad = b * b;
-        AreaRet = a * b;
-
-        Console.WriteLine("TRIANGULO: {0}",areaTri.ToString("F3"));
-        Console.WriteLine("CIRCULO: {0}",areaCirc.ToString("F3"));
-        Console.WriteLine("TRAPEZIO: {0}",areaTrap.ToString("F3"));
-        Console.WriteLine("QUADRADO: {0}",areaQuad.ToString("F3"));
-        Console.WriteLine("RETANGULO: {0}",AreaRet.ToString("F3"));
+        total = (valP1 * np1) + (valP2 * np2);
+        
+        Console.WriteLine("VALOR A PAGAR: R$ {0}",total.ToString("F2"));
 
     }
 

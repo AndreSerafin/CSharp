@@ -1,21 +1,24 @@
 using System;
-/*Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (cédulas) no qual
-o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir
-mostre o valor lido e a relação de notas necessárias.*/
-class uri015
+/*Dois carros (X e Y) partem em uma mesma direção. O carro X sai com velocidade 
+constante de 60 Km/h e o carro Y sai com velocidade constante de 90 Km/h.
+Em uma hora (60 minutos) o carro Y consegue se distanciar 30 quilômetros do
+carro X, ou seja, consegue se afastar um quilômetro a cada 2 minutos.
+Leia a distância (em Km) e calcule quanto tempo leva (em minutos) para o
+carro Y tomar essa distância do outro carro.*/
+class uri1016
 {
 
     private static void Main()
     {
-        int valor,notas;
-        int[] cedulas = new int[7]{100,50,20,10,5,2,1};
 
-        valor = int.Parse(Console.ReadLine()); 
+        int km,tempo;
         
-        for(int i = 0; i <= 6;i++){
-        notas = valor/cedulas[i];
-        Console.WriteLine("{0} notas(s) de R$ {1},00",notas,cedulas[i]);
-        valor %= cedulas[i];
-        }
+        km = int.Parse(Console.ReadLine());
+
+        tempo = km*2;
+
+        Console.WriteLine("{0} minutos",tempo);
+                
+
     }
 }

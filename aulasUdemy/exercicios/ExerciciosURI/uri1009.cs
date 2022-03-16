@@ -1,30 +1,23 @@
 using System;
-/*Neste problema, deve-se ler o código de uma peça 1, 
-o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, 
-o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.*/
-class uri008{
+/*Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas
+por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas,
+informar o total a receber no final do mês, com duas casas decimais.*/
+class uri1009{
 
-    static void Main(){
-
-        int cod1,cod2,np1,np2;
-        double valP1,valP2,total;
-        string[] dados1,dados2;
+    private static void Main(){
+        string nome;
+        double salFixo,totalVendido,sal;
         
-        dados1 = Console.ReadLine().Split(' ');
-        dados2 =Console.ReadLine().Split(' ');
-
-        cod1 = int.Parse(dados1[0]);
-        np1 = int.Parse(dados1[1]);
-        valP1 = double.Parse(dados1[2]);
+        Console.Write("Digite o nome do funcionario: ");
+        nome = Console.ReadLine();
+        Console.Write("Digite o valor do salario fixo: ");
+        salFixo = double.Parse(Console.ReadLine());
+        Console.Write("Digite o total vendido: ");
+        totalVendido = double.Parse(Console.ReadLine());
         
-        cod2 = int.Parse(dados2[0]);
-        np2 = int.Parse(dados2[1]);
-        valP2 = double.Parse(dados2[2]);
+        sal = salFixo + (totalVendido * 15/100);
 
-        total = (valP1 * np1) + (valP2 * np2);
-        
-        Console.WriteLine("VALOR A PAGAR: R$ {0}",total.ToString("F2"));
-
+        Console.WriteLine("TOTAL = R$ {0}",sal.ToString("F2"));
     }
 
 }

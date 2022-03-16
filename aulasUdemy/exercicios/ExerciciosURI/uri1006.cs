@@ -1,23 +1,19 @@
-using System; 
+using System;
+/*Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. A seguir, calcule a média do 
+aluno, sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5. Considere que cada nota pode 
+ir de 0 até 10.0, sempre com uma casa decimal.*/
+class uri1006{
+    private static void Main(){
 
-/*Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. 
-A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11).
-Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.*/
-class uri005 {
+        double nota1,nota2,nota3,media;
 
-    static void Main(string[] args) { 
-        
-        int A,B,C,D,DIF;
+        nota1 = double.Parse(Console.ReadLine());
+        nota2 = double.Parse(Console.ReadLine());
+        nota3 = double.Parse(Console.ReadLine());
 
-        A = int.Parse(Console.ReadLine());
-        B = int.Parse(Console.ReadLine());
-        C = int.Parse(Console.ReadLine());
-        D = int.Parse(Console.ReadLine());
+        media = ((nota1 * 2) + (nota2 * 3) + (nota3 * 5)) / 10.0;
 
-        DIF = (A * B)-(C * D);
+        Console.WriteLine("MEDIA = {0}",media.ToString("F1"));
 
-        Console.WriteLine("DIFERENCA = {0}",DIF);
-        
     }
-
 }
