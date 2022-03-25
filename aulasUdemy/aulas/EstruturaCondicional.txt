@@ -1,0 +1,62 @@
+Espressões
+
+    Comparativas:
+
+        operadores      significado
+            >               maior
+            <               menor
+            >=         maior ou igual
+            <=         menor ou igual
+            ==              igual
+            !=            diferente
+
+    Logicas:
+
+        operadores      significado
+            &&              E
+            ||              OU
+            !               Não
+
+Estrutura condicional: É uma estrutura de controle que permite definir 
+que um certo bloco de comandos somente será executado dependendo de 
+uma condição.
+
+Sintaxe da estrutura condicional:
+
+    Simples:                    Regra:
+
+        if(<codição>){          V:executa o comando.
+            <comando 1>         F:pula o bloco de comandos.
+            <comando 2>
+        }
+    
+    Composta:
+
+        if(<condição 1>){
+            <comando 1>
+            <comando 2>         Regra:
+        }
+        else{                   V:executa somante o bloco do if
+            <comando 3>         F:executa somente o bloco do else
+            <comando 4>
+        }
+
+    Mais de duas possibilidades:
+
+        if(<condição 1>){
+            <comando 1>
+            <comando 2>
+        }
+        else if(<condição 2>){
+            <comando 3>
+            <comando 4>
+        }
+        else{
+            <comando 5>
+            <comando 6>
+        }
+
+Sintaxe Opcional: operadores de atribuição cumulativa
+
+
+        
